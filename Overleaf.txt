@@ -1,0 +1,126 @@
+
+\documentclass[11pt,a4paper]{article}
+\usepackage[left=1.5cm,right=1.5cm,top=0.2cm,bottom=1.5cm]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{enumitem}
+
+
+
+\definecolor{heading}{RGB}{0,0,128}
+
+\titleformat{\section}{\large\bfseries\color{heading}}{}{0em}{}[\titlerule]
+
+\begin{document}
+\begin{picture}(0,0)
+    \put(400, -75){\includegraphics[width=3.0cm]{ccna.png}} 
+\end{picture}
+\begin{center}
+{\Huge \textbf{FOUZAN P}}\\
+{\textbf{NETWORK ENGINEER}}\\
+Bengaluru, Karnataka, India \\
+\href{mailto:fouzanp1@gmail.com}{fouzanp1@gmail.com} $\mid$
++91 9496756240 $\mid$
+\href{https://www.linkedin.com/in/fouzanp1}{linkedin.com/in/fouzanp}
+\vspace{-10pt}
+\end{center}
+
+\section*{PROFESSIONAL SUMMARY}
+\vspace{-2.5pt}
+B.Tech in Computer Science Engineering complemented by CCNA training and strong interest in IT, networking, and cybersecurity. Proficient in configuring and troubleshooting network devices, managing VLANs, and implementing security protocols. Detail-oriented, quick learner, and passionate about network infrastructure, SOC operations, and emerging technologies.
+\vspace{-10pt}
+\section{TECHNICAL SKILLS}
+\resumeItemListStart
+\begin{itemize}[leftmargin=*,labelsep=0.2cm]
+\item\textbf{Networking Fundamentals:}
+ OSI \& TCP/IP models, IP addressing, subnetting, and basic network topologies.
+ \vspace{-9pt}
+\item\textbf{Network Configuration \& Troubleshooting:}
+Configuration and troubleshooting of LAN networks, VLANs, trunk ports, inter-VLAN routing, and basic routing issues.
+\item \textbf{Cisco Networking:}
+ Hands-on experience configuring Cisco routers and switches, including VLANs, OSPF (multi-area basics), ACLs, and NAT.
+\item\textbf{Packet Analysis:}
+Network traffic analysis using Wireshark, Ping, Traceroute, and nslookup for connectivity and performance troubleshooting.
+\item\textbf{Network Security Basics:} Port security, access control lists (ACLs), firewall fundamentals, and IDS/IPS awareness.
+\item\textbf{SOC \& SIEM Fundamentals: }
+Exposure to Security Operations Center (SOC) processes, including log monitoring, alert analysis, and basic incident detection using Splunk.
+\item\textbf{Operating Systems \& Tools:}
+ Working knowledge of Windows and Linux (Kali), with basic Python scripting for automation and familiarity with cloud concepts (SaaS, PaaS, IaaS).
+    
+\end{itemize}
+
+\resumeItemListEnd
+\vspace{-20pt}
+\section*{PROJECTS}
+\resumeItemListStart
+  \vspace{2.3pt} % This adds 10 points of vertical space
+  \item \textbf{VLAN and Inter-VLAN Routing Setup} \\ 
+   Designed and implemented VLAN segmentation for an enterprise LAN using Cisco switches. Configured 802.1Q trunking, router-on-a-stick, STP, and ACLs to enable controlled inter-VLAN communication and reliable connectivity.
+   
+\vspace{7pt} % This adds 10 points of vertical space
+ \item \textbf{OSPF Multi-Area Network Simulation} \\
+Designed a scalable multi-area OSPF architecture with backbone Area 0 and non-backbone areas to support efficient routing. Implemented route summarization, tuned adjacency parameters, and verified routing tables to ensure stable inter-area connectivity and fast convergence.
+\vspace{8pt} % This adds 10 points of vertical space
+  \item \textbf{IoT-Based Smart Hydration Tracker} \\
+  Developed a smart hydration device that transforms any bottle into an intelligent water tracker using ESP32, load cell, and HX711. Enabled real-time monitoring via Bluetooth and integrated a backend with cloud connectivity to provide analytics, personalized reminders, and automated hydration goal tracking.
+  
+\vspace{10pt} % This adds 10 points of vertical space
+  \item\textbf{SIEM Implementation \& Attack Simulation – Wazuh Local Lab} \\
+  Built a local SOC environment using virtualized Linux and Windows systems. Implemented Wazuh SIEM for centralized log monitoring and real-time alerting, and analyzed simulated attacks to understand security monitoring workflows.
+\resumeItemListEnd
+
+\section*{PROFESSIONAL TRAINING}
+  \item \textbf{Cloud Nets Solutions – Bengaluru, India}  \hfill \textit{July 2025--Feb 2026}
+  \begin{itemize}[leftmargin=*,labelsep=0.2cm]
+      \item \textbf{CCNA \& Network Engineering Training:} Routing, Switching, VLAN configuration, IP addressing, and network troubleshooting.
+      \item \textbf{Cybersecurity \& SOC Training:} Penetration testing, network security monitoring, and incident response.
+  \end{itemize}
+\vspace{-2mm}
+
+\section*{LAB EXPERIENCE}
+\begin{itemize}[leftmargin=*,labelsep=0.2cm]
+      \item Configured and tested Cisco routers and switches in simulated enterprise environments.
+      \item Performed IP addressing, VLAN configuration, and basic routing scenarios using Packet Tracer.
+      \item Analyzed packet captures and network traffic to troubleshoot connectivity and performance issues.
+\end{itemize}
+      
+  \end{quote}
+\vspace{-2mm}
+
+\section*{CERTIFICATIONS}
+\item \textbf{CCNA (200-301) Global Certification — In Progress} \\
+  Cisco
+\item \textbf{Network Defense Essentials(NDE)} \\
+  EC-Council
+\item \textbf{Network Support and Security} \\
+  Cisco
+\item \textbf{Fortinet Certified Fundamentals (FCF) in Cybersecurity} \\
+  Fortinet
+
+\section*{EDUCATION}
+\SubHeadingListStart
+  \item \textbf{Vimal Jyothi Engineering College} \hfill \textit{2021--2025}\\
+  \textit{B.Tech, Computer Science Engineering (CSE)} \\
+  GPA: 7.92/10
+  \item \textbf{KPC HSS Pattannur,Kannur} \hfill \textit{2019--2021}\\
+  Computer Science Stream (+2)
+  \item \textbf{Islahi English Medium School,Irikkur} \hfill \textit{2018--2019}\\
+  SSLC
+\SubHeadingListEnd
+\vspace{-2mm}
+
+  
+\section{DECLARATION}
+\begin{justify}
+I hereby declare that all the above-mentioned details are true to the best of my knowledge and belief.
+\end{justify}
+\vspace{3mm}
+\begin{flushright}
+\textbf{FOUZAN P}
+\end{flushright}
+
+\end{document}
+
